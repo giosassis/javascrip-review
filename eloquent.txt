@@ -1,0 +1,89 @@
+//1. Values, Types and Operator
+
+Number: Infinity;
+-Infinity;
+NaN;
+
+String: `Down on the sea`;
+("Lie on ocean");
+("Float on the ocean");
+"com" + "cat" + "e" + "nate";
+`Half of 100 is ${100/2}` - Template String 
+
+Boolean Values:
+console.log(3 > 2) // true 
+console.log( 3 < 2) // false 
+
+Logical Operators:
+console.log(true && false) // false
+console.log (true && true) // true 
+console.log(false || true) // true
+console.log (false || false) // false 
+console.log(! not)
+1 + 1 == 2 && 10 * 10 > 50
+
+
+Empty Values:
+Null and Undefined
+
+//2. Program Structure 
+
+Binding (?)
+Closures(?) = Pag 49 (61)
+
+let caught = 5 * 5 // Creates a binding calling caught and uses it to grab hold of the number that is produced by multiplying 5*5
+
+let ten = 10;
+console.log(ten * ten) // 100
+
+Conditionall Execution Undefined
+
+let theNumber = Number(prompt("Pick a number"))
+if(!Number.isNaN(theNumber)){
+    console.log("Your number is the square root of " + theNumber * theNumber)
+} else { 
+    console.log("Hey, why didn't you give me a number?")
+}; //
+
+
+While and do Loops
+
+let number = 0;
+
+while(number <= 12){
+    console.log(number);
+    number = number + 2
+}
+
+For Loops
+
+for (let number = 0; number <= 100; number = number + 2){
+    console.log(number)
+}
+
+Switch 
+
+if (x == "value1) action1();
+else if (x == "value2) action2();
+else if (x == "value3) action3();
+else defaultAction();
+
+
+switch weather {
+case "rainy":
+    console.log("umbrella");
+case "sunny":
+    console.log("dress lightly");
+case "cloudy":
+    console.log("Go outside);
+break;
+default:
+    console.log("unknown weather type!");
+break
+}
+
+function
+
+Recursion: A function that calls itself is called recursive.
+
+

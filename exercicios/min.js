@@ -1,5 +1,12 @@
-function min (i,j) {
-    console.log(Math.min(i,j))
+function min(i, j) {
+  if (i < j) return i;
+  if (j < i) return j;
 }
 
-console.log(min(10,20))
+////////////////////////////
+
+function min(i, j) {
+  return Math.min(i, j);
+}
+
+console.log(min(92, 60));

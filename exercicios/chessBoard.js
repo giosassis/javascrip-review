@@ -14,8 +14,6 @@ Passing this string to console.log should show something like this:
 let hash = "#";
 let chess = "";
 
-for (let i = 0; i <= 8 ;i++) {
- 
-}
+for (let i = 0; i <= 8; i++) {}
 
 console.log(chess);

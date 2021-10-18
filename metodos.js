@@ -24,3 +24,4 @@ String.prototype.split();
 String.prototype.join();
 String.prototype.trim();
 String.prototype.padStart();
+String.prototype.substr();

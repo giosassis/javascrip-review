@@ -1,0 +1,23 @@
+{
+  "name": "eloquent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "datastructure.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giosassis/eloquent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giosassis/eloquent/issues"
+  },
+  "homepage": "https://github.com/giosassis/eloquent#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}

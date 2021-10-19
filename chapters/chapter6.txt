@@ -1,0 +1,14 @@
+// (The secret life of Objects)
+
+Encapsulation: Separating interface from implementation.                                                                                
+
+Methods: Properties that hold function values   
+(object.method())  
+
+Prototype: Is another object that is used as a fallback source of properties.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 from implementation
+
+Class Notation 
+
+Polymophism
+
+Revisar: Getters and setters // Herança

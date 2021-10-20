@@ -1,3 +1,5 @@
 Debugging
 'use strict'
 Types
+Throw new Err 
+Try and catch

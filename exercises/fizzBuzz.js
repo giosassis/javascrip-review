@@ -1,6 +1,22 @@
-for (let i = 1; i <= 100; i++) {
-  if (i % 3 == 0) console.log("Fizz");
-  if (i % 5 == 0) console.log("Buzz");
-  if (i % 5 && i % 3 == 0) console.log("FizzBuzz");
-  if (i % 5 && i % 3 != 0) console.log(i);
+function fizzBuzz(number) {
+  let result = [];
+
+  for (let i = 1; i <= number; i++) {
+    let value = "";
+    if (i % 3 == 0) {
+      value += "Fizz";
+    } else if (i % 5 == 0) {
+      value += "Buzz";
+    } else if (i % 5 && i % 3 == 0) {
+      value += "FizzBuzz";
+    } else if (value.length == 0) {
+      value = i;
+    }
+
+    result.push(value);
+  }
+
+  return result;
 }
+
+console.log(fizzBuzz(50).join(","));

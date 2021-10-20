@@ -1,0 +1,3 @@
+function primitiveMultiply(a, b) {
+    
+}

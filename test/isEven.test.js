@@ -1,4 +1,4 @@
-const isEven = require("../exercises/recursive");
+const isEven = require("../exercises/3.recursive");
 
 describe("Shows if numer is odd or even", () => {
   it("Should return true", () => {

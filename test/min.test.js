@@ -1,6 +1,6 @@
-const min = require("../exercises/min");
+const min = require("../exercises/3.min");
 
-describe("Must return the smallest number", () => {
+describe("min()", () => {
   it("Should return 60", () => {
     const response = min(92, 60);
     expect(response).toBe(60);

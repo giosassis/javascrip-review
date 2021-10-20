@@ -1,5 +1,5 @@
 const { it } = require("@jest/globals");
-const countChar = require("../exercises/countBeans");
+const countChar = require("../exercises/3.countBeans");
 
 describe("Count how many B", () => {
   it("Should return one", () => {

@@ -12,6 +12,8 @@ class Vec {
   }
 
   get length(x,y) {
-      //The lenght of the vector (that is the distance of the point (x,y) from the origin (0x0)
+      //The lenght of the vector (that is the distance of the point (x,y) from the origin (0x0) 
+    //euclidean distance 
+
   }
 }

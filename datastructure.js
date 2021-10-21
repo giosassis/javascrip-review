@@ -15,7 +15,7 @@
 // //Métodos
 // Array.prototype.push();
 // Array.prototype.pop();
-// Array.prototype.includes();
+// Array.prototype.includes(); // Verifica se o elemento existe no array 
 // Array.prototype.shift();
 // Array.prototype.unshift();
 // Array.prototype.indexOf();

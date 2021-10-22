@@ -8,6 +8,7 @@ class Group {
       this.member.push(value);
     }
   }
+
   delete(value) {
     this.member = this.member.filter((element) => element.id !== value);
   }
@@ -20,18 +21,23 @@ class Group {
 
   static from(obj) {
     let group = new Group();
+
     for (let value of obj) {
       group.add(value);
     }
 
     return group;
   }
+
+  [Symbol.iterator]() {
+    return new GroupIterator(this);
+  }
 }
 
-class groupIterable {
-  constructor(anotherGroup) {
+class GroupIterator {
+  constructor(group) {
     this.integrator = 0;
-    this.group = anotherGroup.group;
+    this.group = group;
   }
 
   next() {

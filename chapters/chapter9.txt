@@ -1,0 +1,9 @@
+Regular Expression 
+Methods: Test 
+
+\d: any digit character 
+\w: an alphanumeric character 
+\s: any whitespace character (space, tab, newline)
+\D: a character that is not a digit
+\W: a nonaplhanumeric character
+\S: A nonwhite character 

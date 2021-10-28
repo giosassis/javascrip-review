@@ -14,7 +14,7 @@ const box = {
 };
 
 function withBoxUnlocked(value) {
-  const unlockTheBox = box.unlock;
+  const lockedBox = box.locked;
 
 
 }
